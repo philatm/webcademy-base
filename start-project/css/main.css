@@ -11,12 +11,7 @@ body {
     color: black;
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 24px;
-    font-size: 42px;
-    line-height: 1;
-}
+
 
 .nav {
     margin-top: 20px;
@@ -28,6 +23,24 @@ h1 {
     color: white;
 }
 
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    width: 900px;
+    background-color: #dcebf0;
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    width: 900px;
+
+    background-color: #1d3f5e;
+    color: white
+}
+
 .nav a {
     margin-right: 30px;
     color: white;
@@ -37,17 +50,26 @@ h1 {
     margin-right: 0;
 }
 
-h2 {
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
     margin-bottom: 24px;
+
+    line-height: 1;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
     font-size: 32px;
 }
 
-.main {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 40px;
-    width: 900px;
-    background-color: #dcebf0;
+h3 {
+    font-size: 26px;
 }
 
 p {
@@ -62,12 +84,10 @@ blockquote {
     font-size: 18px;
 }
 
-.footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px 40px;
-    width: 900px;
+article {
+    margin-bottom: 60px;
+}
 
-    background-color: #1d3f5e;
-    color: white
+article:last-child {
+    margin-bottom: 0;
 }
