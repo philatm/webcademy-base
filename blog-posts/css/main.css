@@ -23,7 +23,7 @@ body {
     text-align: center;
 }
 
-.section-posts {
+.section-cards {
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -83,8 +83,7 @@ body {
 /* Button */
 
 .button {
-    padding: 12px 40px 16px;
-    background-color: #FFF;
+    padding: 11px 39px 15px;
     border: 1px solid #000;
     border-radius: 4px;
     font-size: 22px;
@@ -106,5 +105,5 @@ body {
     position: relative;
     top: 1px;
     background-color: #444444;
-    border: 1px solid #444444;
+    border-color: #444444;
 }
