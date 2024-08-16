@@ -1,0 +1,115 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* font-family: "Noto Sans", sans-serif;
+   font-family: "Playfair Display",serif; */
+body {
+    font-family: "Noto Sans", sans-serif;
+    line-height: normal;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Секция */
+
+.section {
+    padding: 90px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-products {
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.section-button-wrapper {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
+/* Карточка */
+.card {
+    width: 270px;
+    text-align: center;
+}
+
+.card-img {
+    margin-bottom: 12px;
+}
+
+.card-title {
+    margin-bottom: 12px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.card-old-price {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.card-price {
+    font-size: 14px;
+    color: #F72464;
+    font-weight: 700;
+}
+
+/* Кнопка */
+.button {
+    display: inline-block;
+    padding: 9px 40px 12px;
+
+    background-color: #FFF;
+    border: 1px solid #F72464;
+    border-radius: 4px;
+    color: #000;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition:
+        background-color 0.2s ease-in,
+        color 0.2s ease-in,
+        border 0.2s ease-in;
+
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: #F72464;
+    color: #FFF;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+    background-color: #BA1044;
+    border: 1px solid #BA1044;
+    color: #FFF;
+}
