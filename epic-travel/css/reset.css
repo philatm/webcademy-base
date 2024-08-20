@@ -73,6 +73,9 @@ svg {
 	height: auto;
 }
 
+address {
+    font-style: normal;
+}
 /* Form */
 
 input,
