@@ -5,6 +5,11 @@ body {
     font-family: "Manrope", sans-serif;
     line-height: normal;
 }
+
+a {
+    color: #81B4BD;
+    text-decoration: underline;
+}
 .sticky-footer {
     min-height: 100vh;
     display: flex;
@@ -20,20 +25,27 @@ body {
     display: none !important;
 }
 
-.title-2 {
+.title-1 {
     font-size: 48px;
     font-weight: 800;
     line-height: 1;
 }
 
-.title-2 span {
+.title-1 span {
     color: #81B4BD;
 }
 
+.text-center {
+    text-align: center;
+}
 /* Header */
 
 .header {
     padding: 40px 0;
+}
+
+.header-bg {
+    background-color: #F6F6F6;
 }
 
 /* Nav */
@@ -65,9 +77,6 @@ body {
 }
 
 /* Main */
-.main-page {
-
-}
 
 .promo {
     display: flex;
@@ -89,7 +98,6 @@ body {
     }
 }
 
-.promo-desc {}
 
 .promo-title {
     font-size: 60px;
@@ -141,6 +149,55 @@ body {
     text-decoration: underline;
 }
 
+/* Tours */
+
+.tours-page {
+    padding: 90px 0;
+}
+
+.tours-page-title-wrapper {
+    margin-bottom: 60px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 60px;
+}
+
+.card {
+    width: 370px;
+}
+
+.card-img {
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.card-desc p {
+    line-height: 1.5;
+}
+
+.card-desc a {
+    color: #81B4BD;
+    text-decoration: underline;
+}
 /* Footer */
 
 .footer {
