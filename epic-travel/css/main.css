@@ -44,6 +44,7 @@ a {
 .text-center {
     text-align: center;
 }
+
 /* Header */
 
 .header {
@@ -94,16 +95,15 @@ a {
     background-position: center;
     background-size: cover;
     border-radius: 40px;
-
     color: #fff;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
     .promo {
         background-image: url('./../img/promo/promo-bg@2x.jpg');
     }
 }
-
 
 .promo-title {
     font-size: 60px;
@@ -136,7 +136,7 @@ a {
 .content-img {
     flex-shrink: 0;
     overflow: hidden;
-    border-radius: 40px;  
+    border-radius: 40px;
 }
 
 .content-text {
@@ -176,7 +176,7 @@ a {
     width: 370px;
 }
 
-.card-img {
+.card .card-img {
     display: block;
     margin-bottom: 20px;
     overflow: hidden;
@@ -225,6 +225,7 @@ a {
     border-radius: 20px;
     overflow: hidden;
 }
+
 /* Footer */
 
 .footer {
