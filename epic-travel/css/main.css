@@ -10,15 +10,21 @@ a {
     color: #81B4BD;
     text-decoration: underline;
 }
+
 .sticky-footer {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 .container {
     margin: 0 auto;
     width: 1200px;
     padding: 0 15px;
+}
+
+.container.container-small {
+    width: 1000px;
 }
 
 .none {
@@ -149,13 +155,13 @@ a {
     text-decoration: underline;
 }
 
-/* Tours */
+/* Inner page */
 
-.tours-page {
+.inner-page {
     padding: 90px 0;
 }
 
-.tours-page-title-wrapper {
+.inner-page-title-wrapper {
     margin-bottom: 60px;
 }
 
@@ -197,6 +203,27 @@ a {
 .card-desc a {
     color: #81B4BD;
     text-decoration: underline;
+}
+
+/* Article */
+
+.article-content {
+
+}
+
+.article-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.article-content p + p {
+    margin-top: 30px;
+}
+
+.article-img {
+    margin: 40px 0;
+    border-radius: 20px;
+    overflow: hidden;
 }
 /* Footer */
 
