@@ -367,6 +367,37 @@ a {
 .real-radio:checked + .custom-radio::after {
         transform: translate(-50%, -50%) scale(100%);
 }
+
+/* Custom chckboxes */
+.custom-checkbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 1px solid #b5dee5;
+    background-color: #eff9fb;
+
+}
+
+.custom-checkbox::after {
+    content: "";
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0%);
+    transition: all 0.2s ease-in;
+
+    width: 16px;
+    height: 13px;
+    background-image: url("./../img/icons/tick.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.real-checkbox:checked + .custom-checkbox::after {
+    transform: translate(-50%, -50%) scale(100%);
+}
 /* Address */
 
 .address-wrapper {
