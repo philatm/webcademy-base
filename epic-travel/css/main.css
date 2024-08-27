@@ -356,7 +356,7 @@ a {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) scale(0%);
+    transform: translate(-50%, -50%) scale(0);
 
     width: 12px;
     height: 12px;
@@ -365,7 +365,7 @@ a {
     transition: all 0.2s ease-in;
 }
 .real-radio:checked + .custom-radio::after {
-        transform: translate(-50%, -50%) scale(100%);
+        transform: translate(-50%, -50%) scale(1);
 }
 
 /* Custom chckboxes */
@@ -385,7 +385,7 @@ a {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) scale(0%);
+    transform: translate(-50%, -50%) scale(0);
     transition: all 0.2s ease-in;
 
     width: 16px;
@@ -396,7 +396,7 @@ a {
 }
 
 .real-checkbox:checked + .custom-checkbox::after {
-    transform: translate(-50%, -50%) scale(100%);
+    transform: translate(-50%, -50%) scale(1);
 }
 /* Address */
 

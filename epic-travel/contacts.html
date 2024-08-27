@@ -52,21 +52,21 @@
                                 <label>
                                     <input type="radio" name="number"
                                     class="real-radio visually-hidden" value="2-4">
-                                    <div class="custom-radio"></div>
+                                    <span class="custom-radio"></span>
                                      2 - 4 человека
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" name="number" class="real-radio visually-hidden" value="5-10"> 
-                                    <div class="custom-radio"></div>
+                                    <span class="custom-radio"></span>
                                     5 - 10 человек
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="radio" name="number" class="real-radio visually-hidden" value="11+"> 
-                                    <div class="custom-radio"></div>
+                                    <span class="custom-radio"></span>
                                     11 человек и более
                                 </label>
                             </li>
@@ -79,28 +79,28 @@
                             <li>
                                 <label>
                                     <input type="checkbox" class="real-checkbox visually-hidden" name="tracking"> 
-                                    <div class="custom-checkbox"></div>
+                                    <span class="custom-checkbox"></span>
                                     Трекинг туры, походы по горам и пересеченной местности.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="checkbox" class="real-checkbox visually-hidden" name="mountains">
-                                    <div class="custom-checkbox"></div>
+                                    <span class="custom-checkbox"></span>
                                     Восхождения на вершины.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="checkbox" class="real-checkbox visually-hidden" name="exotic">
-                                    <div class="custom-checkbox"></div>
+                                    <span class="custom-checkbox"></span>
                                     Экзотические джунгли, вулканы.
                                 </label>
                             </li>
                             <li>
                                 <label>
                                     <input type="checkbox" class="real-checkbox visually-hidden" name="combi" value=""> 
-                                    <div class="custom-checkbox"></div>
+                                    <span class="custom-checkbox"></span>
                                     Комбинированные: море, горы, города, лес.
                                 </label>
                             </li>
@@ -109,7 +109,7 @@
 
                     <button class="submit-btn" type="submit">Отправить заявку</button>
                 </form>
-                <address class="address-wrapper">
+                <section class="address-wrapper">
                     <div class="address-item">
 
                         <h2 class="title-2">Телефон и адрес</h2>
@@ -128,14 +128,13 @@
 
                     <div class="address-item">
                         <h2 class="title-2">Карта</h2>
-                        <img src="./img/contacts/map.jpg" srcset="./img/contacts/map@2x.jpg 2x" alt="Карта">
-                    </div>
-
-                        
-                        
-                        
-                    
-                </address>
+                        <!-- <img src="./img/contacts/map.jpg" srcset="./img/contacts/map@2x.jpg 2x" alt="Карта"> -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.4498074896555!2d37.79292717672041!3d55.71593477307058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab59b3be61f9b%3A0x8e6799da30ecf98a!2z0KDRj9C30LDQvdGB0LrQuNC5INC_0YAuLCA1NCwg0JzQvtGB0LrQstCwLCAxMDkzNzc!5e0!3m2!1sru!2sru!4v1724735629531!5m2!1sru!2sru"
+                            width="470" height="345" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>                 
+                </section>
             </div>
         </div>
     </main>
