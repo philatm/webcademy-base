@@ -1,0 +1,65 @@
+/* Tablet */
+@media (max-width: 1199px) {
+    .container {
+        width: 900px;
+    }
+
+    .subtitle {
+        font-family: "Noto Sans", sans-serif;
+        color: #999999;
+    }
+}
+
+/* Mobile */ 
+@media (max-width: 899px) {
+    .container {
+        width: 600px;
+    }
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 67px;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .section-cards {
+        row-gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    a.button {
+        padding: 11px 24px 13px;
+        font-size: 18px;
+    }
+}
+
+/* MObile XS */ 
+@media (max-width: 599px) {
+    .container {
+        width: 320px;
+    }
+
+    .section {
+        padding-bottom: 40px;
+    }
+
+    .section-cards {
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
