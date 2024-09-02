@@ -31,6 +31,10 @@ a {
     display: none !important;
 }
 
+.desktop-only {
+    display: block;
+}
+
 .title-1 {
     font-size: 48px;
     font-weight: 800;
@@ -76,6 +80,10 @@ a {
 
 /* Nav */
 
+.logo {
+    flex-shrink: 0;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -100,6 +108,10 @@ a {
 
 .nav-list a:hover {
     color: #00CEB5;
+}
+
+.btn-mobile-nav {
+    display: none;
 }
 
 /* Main */
@@ -225,10 +237,6 @@ a {
 }
 
 /* Article */
-
-.article-content {
-
-}
 
 .article-content p {
     font-size: 18px;
