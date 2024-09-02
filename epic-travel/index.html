@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
 </head>
 <body class="sticky-footer">
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <nav class="nav">
                 <a href="index.html" class="logo">
@@ -23,13 +23,22 @@
                     <li><a href="about.html">О компании</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
-                <button class="btn-mobile-nav" type="button">
-                    <img src="./img/icons/open-mobile-nav.svg" alt="Open nav">
+                <button class="btn-mobile-nav" id="btn-mobile-nav" type="button">
+                    <img src="./img/icons/open-mobile-nav.svg" id="mobile-nav-img" alt="Open nav">
                 </button>
             </nav>
             
         </div>
     </header>
+
+    <nav class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="tours.html">Туры</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
 
     <main class="main-page">
         <div class="container">
@@ -85,5 +94,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
