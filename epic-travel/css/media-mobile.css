@@ -8,6 +8,10 @@
         width: 320px;
     }
 
+    .container.container-small {
+        width: 320px;
+    }
+
     .title-1 {
         font-size: 28px;
     }   
@@ -68,5 +72,18 @@
 
     .card-desc p {
         font-size: 14px;
+    }
+
+    /* About */
+    .article-content p {
+        font-size: 16px;
+    }
+
+    .article-content p+p {
+        margin-top: 14px;
+    }
+
+    .article-img {
+        margin: 20px 0;
     }
 }
