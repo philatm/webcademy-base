@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
 </head>
 <body class="sticky-footer">
-    <header class="header header-bg">
+    <header class="header header-bg" id="header">
         <div class="container">
             <nav class="nav">
                 <a href="index.html">
@@ -23,9 +23,22 @@
                     <li><a href="about.html">О компании</a></li>
                     <li><a href="contacts.html" class="active">Контакты</a></li>
                 </ul>
+                <button class="btn-mobile-nav" id="btn-mobile-nav" type="button">
+                    <img src="./img/icons/open-mobile-nav.svg" id="mobile-nav-img" alt="Open nav">
+                </button>
             </nav>
         </div>
     </header>
+
+    <nav class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="tours.html">Туры</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+
 
     <main class="inner-page">
         <div class="container">
@@ -133,8 +146,8 @@
                         <!-- <img src="./img/contacts/map.jpg" srcset="./img/contacts/map@2x.jpg 2x" alt="Карта"> -->
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.4498074896555!2d37.79292717672041!3d55.71593477307058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab59b3be61f9b%3A0x8e6799da30ecf98a!2z0KDRj9C30LDQvdGB0LrQuNC5INC_0YAuLCA1NCwg0JzQvtGB0LrQstCwLCAxMDkzNzc!5e0!3m2!1sru!2sru!4v1724735629531!5m2!1sru!2sru"
-                            width="470" height="345" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="yandex-map"></iframe>
                     </div>                 
                 </section>
             </div>
@@ -145,7 +158,7 @@
         <div class="container">
             <div class="footer-row">
                 <div class="footer-copyright">
-                    <p>2024 © ЭпикТрэвел.<br> Все права защищены</p>
+                    <p>2024 © ЭпикТрэвел.<br class="desktop-only"> Все права защищены</p>
                 </div>
                 <address class="footer-contacts">
                     <a href="tel:+79054561234" class="footer-phone">+7 (905) 456-12-34</a><br>
@@ -155,5 +168,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

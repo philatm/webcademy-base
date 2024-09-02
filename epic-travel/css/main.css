@@ -300,6 +300,8 @@ a {
     
 }
 
+
+
 /* Form */
 
 .form-wrapper {
@@ -450,6 +452,7 @@ a {
     display: flex;
     flex-direction: column;
     row-gap: 60px;
+    width: 470px;
 }
 
 .address-item {
@@ -468,6 +471,11 @@ a {
     display: flex;
     column-gap: 10px;
     align-items: center;
+}
+
+.yandex-map {
+    width: 100%;
+    height: 345px;
 }
 /* Footer */
 

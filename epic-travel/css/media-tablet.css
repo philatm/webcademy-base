@@ -96,4 +96,21 @@
     .article-content p {
         font-size: 16px;
     }
+
+    /* Contacts */
+
+    .contacts-columns {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+
+    .address-wrapper {
+        row-gap: 40px;
+        width: 100%;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
 }
