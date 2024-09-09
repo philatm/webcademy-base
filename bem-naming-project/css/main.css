@@ -13,7 +13,6 @@ body {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
     line-height: normal;
 }
 
@@ -26,7 +25,6 @@ h5,
 h6,
 p {
     margin: 0;
-    font-weight: 400;
 }
 
 img {
@@ -42,13 +40,11 @@ img {
 }
 
 .main-title {
-    font-weight: 700;
     font-size: 28px;
     line-height: 1.3;
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 28px;
     line-height: 1.3;
     font-family: 'Playfair Display', serif;
@@ -56,25 +52,26 @@ img {
 
 .link {
     color: #000;
-    text-decoration: underline;
 }
 
 .button {
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
     height: 46px;
     border: 3px solid rgba(126, 155, 189, 0.3);
     border-radius: 6px;
 
     font-weight: 600;
     font-size: 16px;
-    line-height: 42px;
+    line-height: 40px;
     text-decoration: none;
     color: #7e9bbd;
 }
 
 .button--dark {
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #000;
     border: none;
     font-weight: 700;
@@ -93,7 +90,7 @@ img {
 }
 
 .product__image {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .product__description {
@@ -132,7 +129,7 @@ img {
 }
 
 .other-products {
-    padding: 110px;
+    padding-bottom: 110px;
 }
 .other-products__section-title {
     margin-bottom: 45px;
@@ -147,8 +144,6 @@ img {
 .card {
     padding: 31px 30px 23px;
     width: 350px;
-    height: 410px;
-    background-color: #fff;
     box-shadow: 0 10px 40px 0 rgba(126, 155, 189, 0.3);
 }
 
@@ -162,7 +157,6 @@ img {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    color: #000;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
