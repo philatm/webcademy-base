@@ -6,6 +6,10 @@
     a {
         color: #fff;
     }
+
+    @include mobile {
+        padding: 40px 0;
+    }
 }
 
 .footer__col {
@@ -14,17 +18,3 @@
     align-items: center;
     row-gap: 30px;
 }
-
-.footer__logo {}
-
-.footer__nav {}
-
-
-
-.footer__socials {}
-
-.social-list {}
-
-.social-list__item {}
-
-.social-list__link {}

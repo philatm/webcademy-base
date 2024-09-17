@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=360, initial-scale=1, shrink-to-fit=no">
 	<title>СoWorks - Коворкинг мечты</title>
 	<link rel="stylesheet" href="./css/main.css">
 
@@ -13,7 +13,7 @@
 
 	
     <header class="header">
-        <div class="container">
+        <div class="container container--mobile-fluid">
             <div class="header__row">
                 <a href="#" class="header__logo logo">
                     <img src="./img/logo/logo.svg" alt="CoWorks">
@@ -32,12 +32,14 @@
                         <li class="nav__item">
                             <a href="#!" class="nav__link">Расположение</a>
                         </li>
-                        <li class="nav__item">
+                        <li class="nav__item visible-desktop">
                             <button class="btn-dark">Оставить заявку</button>
                         </li>
                     </ul>
                 </nav>
-            
+                <button class="header__nav-btn">
+                    <img src="./img/icons/nav-btn-open.svg" alt="Открыть навигацию">
+                </button>
             </div>
         </div>
     </header>
@@ -116,17 +118,30 @@
                     </div>
                     <div class="locations__controls">
                         <button>
-                            <img src="./img/icons/arrow-left.svg" alt="Prev">
+                            <img class="locations__controls-img" src="./img/icons/arrow-left.svg" alt="Prev">
                         </button>
                         <button>
-                            <img src="./img/icons/arrow-right.svg" alt="Next">
+                            <img class="locations__controls-img" src="./img/icons/arrow-right.svg" alt="Next">
                         </button>
                     </div>
                 </div>
+            </div>
+            <div class="container container--mobile-fluid">
                 <div class="slider">
                     <img src="./img/slider/slide-01.jpg" srcset="./img/slider/slide-01@2x.jpg 2x" alt="slide" class="slider__img">
                     <img src="./img/slider/slide-02.jpg" srcset="./img/slider/slide-02@2x.jpg 2x" alt="slide" class="slider__img">
                     <img src="./img/slider/slide-03.jpg" srcset="./img/slider/slide-03@2x.jpg 2x" alt="slide" class="slider__img">
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="locations__controls locations__controls--mobile">
+                    <button>
+                        <img class="locations__controls-img" src="./img/icons/arrow-left.svg" alt="Prev">
+                    </button>
+                    <button>
+                        <img class="locations__controls-img" src="./img/icons/arrow-right.svg" alt="Next">
+                    </button>
                 </div>
             </div>
         </section>
