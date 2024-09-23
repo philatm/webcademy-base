@@ -12,7 +12,7 @@
 <body>
 
 	
-    <header class="header">
+    <header class="header" id="#top">
         <div class="container container--mobile-fluid">
             <div class="header__row">
                 <a href="#" class="header__logo logo">
@@ -21,28 +21,60 @@
                 <nav class="header__nav nav">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#!" class="nav__link">Локация</a>
+                            <a href="#location" class="nav__link">Локация</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#!" class="nav__link">Сервис</a>
+                            <a href="#services" class="nav__link">Сервис</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#!" class="nav__link">Тарифы</a>
+                            <a href="#price" class="nav__link">Тарифы</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#!" class="nav__link">Расположение</a>
+                            <a href="#map" class="nav__link">Расположение</a>
                         </li>
                         <li class="nav__item visible-desktop">
                             <button class="btn-dark">Оставить заявку</button>
                         </li>
                     </ul>
                 </nav>
-                <button class="header__nav-btn">
+                <button class="header__nav-btn" id="openMobileNav">
                     <img src="./img/icons/nav-btn-open.svg" alt="Открыть навигацию">
                 </button>
             </div>
         </div>
     </header>
+
+    <section class="mobile-nav">
+        <div class="mobile-nav__header">
+            <h2 class="visually-hidden">Мобильная навигация</h2>
+            <a href="#" class="mobile-nav__logo logo">
+                <img src="./img/logo/logo.svg" alt="CoWorks">
+            </a>
+            <button class="mobile-nav__btn" id="closeMobileNav">
+                <img src="./img/icons/nav-btn-close.svg" alt="Close">
+            </button>
+        </div>
+        <div class="mobile-nav__body">
+            <ul class="mobile-nav__list">
+                <li>
+                    <a href="#location">Локация</a>
+                </li>
+                <li>
+                    <a href="#services">Сервис</a>
+                </li>
+                <li>
+                    <a href="#price">Тарифы</a>
+                </li>
+                <li>
+                    <a href="#map">Расположение</a>
+                </li>
+                <li>
+                    <button class="btn-dark">Оставить заявку</button>
+                </li>
+            </ul>
+        </div>
+
+    </section>
     <main class="main">
         <section class="promo">
             <div class="container container--large">
@@ -108,7 +140,7 @@
             </div>
         </section>
 
-        <section class="locations">
+        <section class="locations" id="location">
             <div class="container">
                 <div class="locations__row">
                     <div class="locations__title">
@@ -146,7 +178,7 @@
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="services__title">
                     <h2 class="title-section">Сервисы</h2>
@@ -196,7 +228,7 @@
             </div>
         </section>
 
-        <section class="price">
+        <section class="price" id="price">
             <div class="container">
                 <div class="price__title">
                     <h2 class="title-section">Тарифы</h2>
@@ -305,7 +337,7 @@
             </div>
         </section>
 
-        <section class="map">
+        <section class="map" id="map">
             <div class="container">
 
                 <div class="map__title">
@@ -408,16 +440,16 @@
                 <div class="footer__nav">
                     <ul class="nav-footer">
                         <li class="nav-footer__item">
-                            <a href="" class="nav-footer__link">Локация</a>
+                            <a href="#location" class="nav-footer__link">Локация</a>
                         </li>
                         <li class="nav-footer__item">
-                            <a href="" class="nav-footer__link">Сервис</a>
+                            <a href="#services" class="nav-footer__link">Сервис</a>
                         </li>
                         <li class="nav-footer__item">
-                            <a href="" class="nav-footer__link">Тарифы</a>
+                            <a href="#price" class="nav-footer__link">Тарифы</a>
                         </li>
                         <li class="nav-footer__item">
-                            <a href="" class="nav-footer__link">Расположение</a>
+                            <a href="#map" class="nav-footer__link">Расположение</a>
                         </li>
                     </ul>
                 </div>
@@ -449,5 +481,11 @@
             </div>
         </div>
     </footer>
+
+    <a href="#top" class="top-link" id="scrollToTopBtn"><img src="./img/icons/arrow-up.svg" alt="Arrow up"></a>
+
+    <!-- Скрипты -->
+    <script src="./js/scrollToTop.js"></script>
+    <script src="./js/mobile-nav.js"></script>
 </body>
 </html>
