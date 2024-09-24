@@ -45,21 +45,30 @@
 }
 
 .topic__content {
-    padding-top: 30px;
-
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
+    // padding-top: 30px;
     line-height: 1.5;
 
-    display: none;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+    @include mobile {
+        font-size: 14px;
+    }
+ }
+
+.topic__content-padding {
+    padding-top: 30px;
+
+    p + p {
+        margin-top: 1em;
+    }
 
     @include mobile {
         padding-top: 13px;
-        font-size: 14px;
     }
 }
-
-.topic__content--open {
-    display: flex;
-}
+// VAR 1
+// .topic--open .topic__content {
+//     display: flex;
+// }

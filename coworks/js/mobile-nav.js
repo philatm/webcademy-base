@@ -20,7 +20,6 @@ mobileNavBtnClose.addEventListener('click', function() {
 /* Закрыть мобильную навигацию по клику по ссылке */
 
 const mobileNavLinks = mobileNav.querySelectorAll('a, button');
-console.log(mobileNavLinks);
 
 mobileNavLinks.forEach(function(item) {
     item.addEventListener('click', function() {
