@@ -26,6 +26,12 @@
         }
     }
 
+    &--mobile-fluid {
+        @include mobile {
+            width: auto;
+        }
+    }
+
     
 
     &--mobile-no-padding {

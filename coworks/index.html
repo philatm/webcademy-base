@@ -69,7 +69,7 @@
                     <a href="#map">Расположение</a>
                 </li>
                 <li>
-                    <button class="btn-dark">Оставить заявку</button>
+                    <button class="btn-dark" data-action="modal">Оставить заявку</button>
                 </li>
             </ul>
         </div>
@@ -88,14 +88,14 @@
                         </div>
                         <div class="promo__buttons">
                             <button class="btn-green" data-action="modal">Оставить заявку</button>
-                            <a href="" class="btn-outline">Исследовать</a>
+                            <a href="#benefits" class="btn-outline">Исследовать</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="benefits">
+        <section class="benefits" id="benefits">
             <div class="container">
                 <div class="benefits__row">
                     <div class="benefits__img">
@@ -370,7 +370,13 @@
                 <div class="map__desc">
                     <p>Пресненская набережная, дом 12, 20 этаж.</p>
                 </div>
-                <img src="./img/map/map.jpg" srcset="./img/map/map@2x.jpg 2x" alt="Map" class="map__img">
+
+                <iframe
+                    class="map__iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.4962049173405!2d37.53528857735257!3d55.749881973083106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bdcbfd1b72d%3A0x433d48214f76b256!2z0J_RgNC10YHQvdC10L3RgdC60LDRjyDQvdCw0LEuLCAxMiwg0JzQvtGB0LrQstCwLCAxMjMzMTc!5e0!3m2!1sru!2sru!4v1727238214386!5m2!1sru!2sru"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </section>
 
