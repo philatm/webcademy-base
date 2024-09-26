@@ -28,7 +28,7 @@
     background-position: center;
 }
 
-.real-checkbox:checked+.fake-checkbox {
+.real-checkbox:checked + .fake-checkbox {
     background-color: #000;
     border-color: #000;
 }

@@ -28,6 +28,7 @@
 .map__img, .map__iframe {
     border-radius: 40px;
 
+    width: 100%;
     @include mobile {
         border-radius: 20px;
     }
